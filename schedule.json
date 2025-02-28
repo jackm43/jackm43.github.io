@@ -1,0 +1,394 @@
+{
+    "Friday 28.02.2025": {
+                "The Amphitheatre": [
+                  { "artist": "Kallum Mungulu", "time": "5:20pm - 5:50pm" },
+                  { "artist": "Welcome to Country", "time": "6:00pm - 6:15pm" },
+                  { "artist": "Rabbit Island", "time": "6:30pm - 7:10pm" },
+                  { "artist": "Salt and Steel", "time": "7:25pm - 8:05pm" },
+                  { "artist": "Kim Churchill", "time": "8:20pm - 9:00pm" },
+                  { "artist": "Bec Sandridge", "time": "9:15pm - 9:55pm" },
+                  { "artist": "19-Twenty", "time": "10:15pm - 10:55pm" },
+                  { "artist": "Joan & The Giants", "time": "11:15pm - 11:55pm" }
+                ],
+                "Tigerville": [
+                  { "artist": "The Sandridge Band", "time": "5:40pm - 6:20pm" },
+                  { "artist": "Kiwirrkurra Band (RAADP Mentee Band)", "time": "6:40pm - 7:20pm" },
+                  { "artist": "Charlotte Le Lievre", "time": "7:40pm - 8:20pm" },
+                  { "artist": "Delilah Rose", "time": "8:40pm - 9:20pm" },
+                  { "artist": "Boom! Bap! Pow!", "time": "9:40pm - 10:20pm" }
+                ],
+                "The Secret Garden": [
+                  { "artist": "Oceanique", "time": "6:30pm - 6:50pm" },
+                  { "artist": "Maggie Rigby", "time": "7:00pm - 7:25pm" },
+                  { "artist": "Charm of Finches", "time": "7:40pm - 8:00pm" },
+                  { "artist": "Sisters in Song", "time": "8:15pm - 8:35pm" },
+                  { "artist": "Good News Now We Can Eat All The Vampires", "time": "8:50pm - 9:25pm" },
+                  { "artist": "Wil Thomas & The Riding Light", "time": "9:45pm - 10:20pm" }
+                ],
+                "Town Hall": [
+                  { "artist": "Cecilia", "time": "5:40pm - 6:15pm" },
+                  { "artist": "Stitch Poetry", "time": "6:30pm - 7:05pm" },
+                  { "artist": "Loren Kate", "time": "7:20pm - 7:55pm" },
+                  { "artist": "Tuck Shop Ladies", "time": "8:15pm - 8:55pm" },
+                  { "artist": "Joydah Mae", "time": "9:05pm - 9:40pm" },
+                  { "artist": "The Pleasures", "time": "10:00pm - 10:40pm" },
+                  { "artist": "Double Dole Stringband", "time": "11:00pm - 11:40pm" }
+                ],
+                "The Playground (Free Venue)": [
+                  { "artist": "Nannup District High School", "time": "5:00pm - 5:35pm" },
+                  { "artist": "Helen Shanahan", "time": "5:50pm - 6:25pm" },
+                  { "artist": "BMP", "time": "6:40pm - 7:15pm" },
+                  { "artist": "Tracey Barnett", "time": "7:30pm - 8:05pm" }
+                ],
+                "Nannup Hotel (Free Venue)": [
+                  { "artist": "Daisy Park", "time": "7:00pm - 7:40pm" },
+                  { "artist": "Luci", "time": "8:00pm - 8:40pm" },
+                  { "artist": "Psycho Serene", "time": "9:00pm - 9:40pm" },
+                  { "artist": "The MDV Band", "time": "10:00pm - 10:40pm" },
+                  { "artist": "Freeway South", "time": "11:00pm - 11:40pm" }
+                ],
+                "Nannup Brewing Co. (Free Venue)": [
+                  { "artist": "Sam Coombes", "time": "6:00pm - 6:40pm" },
+                  { "artist": "Adele Oliver", "time": "7:00pm - 7:40pm" },
+                  { "artist": "The Cup Trumpets", "time": "8:00pm - 8:40pm" },
+                  { "artist": "Ashlea Reale & New York Slim", "time": "9:00pm - 9:40pm" }
+                ],
+                "The Depot Lawn (Free Venue)": [
+                  { "artist": "Blackboard Busking Stage", "time": "5:00pm - 8:00pm" }
+                ],
+                "Goorbillyup": [
+                  { "artist": "Oakabella Mae", "time": "5:30pm - 6:10pm" },
+                  { "artist": "Chief Monkey", "time": "6:30pm - 7:10pm" },
+                  {"artist": "Don't Tell Daisy", "time": "7:30pm - 8:10pm"}
+                ],
+                "Kaartdijin Tent": [
+                  { "artist": "Basic Food Gardening with Ecoburbia", "time": "5:00pm - 8:00pm" }
+                ]
+
+              },
+    "Saturday 1.03.2025": {
+        "The Amphitheatre": [
+            {"artist": "Yoga with Erin Griffin and Leah Miche", "time": "8:30am - 9:30am"},
+            {"artist": "Ladybird Entertainment", "time": "10:30am - 11:10am"},
+            {"artist": "Lexyanna", "time": "11:30am - 12:10pm"},
+            {"artist": "Tracey Barnett", "time": "12:25pm - 1:05pm"},
+            {"artist": "LJ Parks", "time": "1:20pm - 2:00pm"},
+            {"artist": "Tanya Ransom", "time": "2:20pm - 3:00pm"},
+            {"artist": "Dave Johnson", "time": "3:15pm - 3:55pm"},
+            {"artist": "Maatakitj", "time": "4:15pm - 4:55pm"},
+            {"artist": "Break", "time": "5:00pm - 5:45pm"},
+            {"artist": "Joydah Mae", "time": "5:45pm - 6:10pm"},
+            {"artist": "David Francey", "time": "6:20pm - 7:00pm"},
+            {"artist": "Charm of Finches", "time": "7:20pm - 8:00pm"},
+            {"artist": "Family Shoveller Band (RAADP)", "time": "8:20pm - 9:00pm"},
+            {"artist": "Odette Mercy and Her Soul Atomics", "time": "9:20pm - 10:00pm"},
+            {"artist": "Tijuana Cartel", "time": "10:20pm - 11:00pm"},
+            {"artist": "Red Engine Caves", "time": "11:15pm - 11:55pm"}
+        ],
+        "Tigerville": [
+            {"artist": "Sam Coombes", "time": "10:30am - 11:10am"},
+            {"artist": "Chris Edmondson's Hut Chapters", "time": "11:30am - 12:10pm"},
+            {"artist": "Psycho Serene", "time": "12:30pm - 1:10pm"},
+            {"artist": "Brightsider", "time": "1:30pm - 2:10pm"},
+            {"artist": "Mo Wilson and The Drivers", "time": "2:30pm - 3:10pm"},
+            {"artist": "Tuck Shop Ladies", "time": "3:30pm - 4:10pm"},
+            {"artist": "Good News Now We Can Eat All The Vampires", "time": "4:30pm - 5:10pm"},
+            {"artist": "Ratsalad", "time": "5:30pm - 6:10pm"},
+            {"artist": "The Floors", "time": "6:30pm - 7:10pm"},
+            {"artist": "Downsyde - Keep The Fire Burning", "time": "7:30pm - 8:10pm"},
+            {"artist": "The Kill Devil Hills", "time": "8:30pm - 9:10pm"},
+            {"artist": "19-Twenty", "time": "9:30pm - 10:15pm"}
+        ],
+        "The Secret Garden": [
+            {"artist": "Sound Journey with Stellar Moon", "time": "9:30am - 10:30am"},
+            {"artist": "Kira Gunn", "time": "10:45am - 11:25am"},
+            {"artist": "Loren Kate 'Songwriters in The Round'", "time": "11:45am - 12:25pm"},
+            {"artist": "BR Dalton", "time": "12:45am - 1:25pm"},
+            {"artist": "The Little Lord Street Band", "time": "1:45pm - 2:25pm"},
+            {"artist": "Adele Oliver", "time": "2:45pm - 3:25pm"},
+            {"artist": "Susan O'Neill", "time": "3:45pm - 4:25pm"},
+            {"artist": "Sean Simmons", "time": "4:45pm - 5:25pm"},
+            {"artist": "Saije", "time": "5:45pm - 6:25pm"},
+            {"artist": "Rabbit Island", "time": "6:45pm - 7:25pm"},
+            {"artist": "The East Pointers", "time": "7:45pm - 8:25pm"},
+            {"artist": "Stellar 'Manawala' Moon", "time": "8:45pm - 9:25pm"},
+            {"artist": "Charlotte Le Lievre", "time": "9:45pm - 10:25pm"}
+        ],
+        "Goorbillyup": [
+            {"artist": "'The Young Ones'", "time": "10:00am - 10:40am"},
+            {"artist": "KCOR", "time": "11:00am - 11:40am"},
+            {"artist": "Servite College", "time": "12:00pm - 1:30pm"},
+            {"artist": "Olive Mae", "time": "2:00pm - 2:40pm"},
+            {"artist": "Midnight Francine", "time": "3:00pm - 3:40pm"},
+            {"artist": "LJ Parks", "time": "4:00pm - 4:40pm"},
+            {"artist": "Broome Senior High School", "time": "5:30pm - 7:30pm"},
+            {"artist": "Ashlea Reale & New York Slim", "time": "8:00pm - 8:40pm"}
+        ],
+        "The Depot Lawn (Free Venue)": [
+            {"artist": "Blackboard Busking Stage", "time": "9:00am - 8:00pm"}
+        ],
+        "Kaartdijin Tent": [
+            {"artist": "Basic Food Gardening with Ecoburbia", "time": "9:45am - 10:30am"},
+            {"artist": "Quiltbag", "time": "10:45am - 11:30am"},
+            {"artist": "Songwriting for Environmental Justice with Seal Prince and The Roof Rats", "time": "11:45am - 12:30pm"},
+            {"artist": "Air Tight – Air Time with Chris Edmondson's Hut Chapters", "time": "12:45pm - 1:30pm"},
+            {"artist": "An Eco-Poetry Workshop with Lisa Collyer (Climate Poetics)", "time": "1:45pm - 2:30pm"},
+            {"artist": "Photographic Walking Tour with Rhyll", "time": "2:45pm - 3:45pm"},
+            {"artist": "Nature Talisman Workshop with Wild Creative Kate Andrews", "time": "3:15pm - 4:45pm"}
+        ],
+        "Tales Around the Hearth": [
+            {"artist": "Tales Around the Hearth", "time": "10:00am - 4:00pm"}
+        ],
+        "Anglican Church": [
+            {"artist": "Sing For Your Tucker - Exploring Vocal Harmonies with Tuck Shop Ladies", "time": "10:30am - 11:30am"},
+            {"artist": "Sing Yourself Alive! with Delilah Rose", "time": "12:00pm - 1:00pm"},
+            {"artist": "We Are All Vessels of Song with Understory", "time": "1:30pm - 2:30pm"},
+            {"artist": "Voice Activation with Joydah Mae", "time": "3:00pm - 4:00pm"}
+        ],
+        "Town Hall": [
+            {"artist": "Awaken Your Senses with Karin Page", "time": "9:30am - 10:30am"},
+            {"artist": "Understory", "time": "11:00am - 11:40am"},
+            {"artist": "Littlefair", "time": "12:00pm - 12:40pm"},
+            {"artist": "Oceanique", "time": "1:00pm - 1:40pm"},
+            {"artist": "Luci", "time": "2:00pm - 2:40pm"},
+            {"artist": "Damon Smith", "time": "3:00pm - 3:40pm"},
+            {"artist": "Helen Shanahan", "time": "4:00pm - 4:40pm"},
+            {"artist": "John Smith", "time": "5:00pm - 5:40pm"},
+            {"artist": "Jack Davies", "time": "6:00pm - 6:40pm"},
+            {"artist": "Roshani", "time": "7:00pm - 7:40pm"},
+            {"artist": "Sunday Lemonade", "time": "8:00pm - 8:40pm"},
+            {"artist": "Bec Sandridge", "time": "9:00pm - 9:40pm"},
+            {"artist": "Boom! Bap! Pow!", "time": "10:00pm - 10:40pm"},
+            {"artist": "Seal Prince and The Roof Rats", "time": "11:00pm - 11:40pm"}
+        ],
+        "The Playground": [
+            {"artist": "Poetry in Moments (Open Mic of Poetry)", "time": "8:30am - 10:30am"},
+            {"artist": "Climate Poetics", "time": "10:40am - 11:00am"},
+            {"artist": "Nannup District High School", "time": "11:10am - 11:25am"},
+            {"artist": "Don't Tell Daisy", "time": "11:40am - 12:20pm"},
+            {"artist": "Kiwirrkurra Band (RAADP Mentee)", "time": "12:40pm - 1:20pm"},
+            {"artist": "Karin Page", "time": "1:40pm - 2:20pm"},
+            {"artist": "Salt and Steel", "time": "2:40pm - 3:20pm"},
+            {"artist": "Maggie Rigby", "time": "3:40pm - 4:20pm"},
+            {"artist": "Oakabella Mae", "time": "4:40pm - 5:20pm"},
+            {"artist": "The Mumbles", "time": "5:40pm - 6:20pm"},
+            {"artist": "The MDV Band", "time": "6:40pm - 7:20pm"},
+            {"artist": "Daisy Park", "time": "7:40pm - 8:20pm"}
+        ],
+
+        "Nannup Hotel": [
+            {"artist": "Suzie Wong's Magic Moments", "time": "12:00pm - 12:40pm"},
+            {"artist": "Sam Coombes", "time": "1:00pm - 1:40pm"},
+            {"artist": "Kallum Mungulu", "time": "2:00pm - 2:40pm"},
+            {"artist": "Freeway South", "time": "3:00pm - 3:40pm"},
+            {"artist": "Matt Cal", "time": "4:00pm - 4:40pm"},
+            {"artist": "Chief Monkey", "time": "5:00pm - 5:40pm"},
+            {"artist": "Kayps", "time": "6:00pm - 6:40pm"},
+            {"artist": "Finn Pearson Band", "time": "7:00pm - 7:40pm"},
+            {"artist": "South 76", "time": "8:00pm - 8:40pm"},
+            {"artist": "The Cup Trumpets", "time": "9:00pm - 9:40pm"},
+            {"artist": "Finn Alexander and The Forever Party", "time": "10:00pm - 10:40pm"},
+            {"artist": "Helena.", "time": "11:00pm - 11:40pm"}
+        ],
+        "Nannup Brewing Co.": [
+            {"artist": "Ben Lunt", "time": "1:00pm - 1:40pm"},
+            {"artist": "Kira Gunn", "time": "2:00pm - 2:40pm"},
+            {"artist": "Romy B", "time": "3:00pm - 3:40pm"},
+            {"artist": "Peter Willey", "time": "4:00pm - 4:40pm"},
+            {"artist": "BMP", "time": "5:00pm - 5:40pm"},
+            {"artist": "Cecilia", "time": "6:00pm - 6:40pm"},
+            {"artist": "Lexyanna", "time": "7:00pm - 7:40pm"},
+            {"artist": "The Mumbles", "time": "8:00pm - 8:40pm"},
+            {"artist": "Saije", "time": "9:00pm - 9:40pm"}
+        ],
+        "Village Green": [
+            {"artist": "FLOW", "time": "6:00pm - 7:00pm"}
+        ],
+        "Art Space": [
+            {"activity": "MAKE A SHAKER", "time": "10:00am - 11:30am"},
+            {"activity": "PLAY WITH CLAY", "time": "11:30am - 1:30pm"},
+            {"activity": "SUN DYES", "time": "1:30pm - 3:30pm"},
+            {"activity": "DIY NOTEBOOKS", "time": "3:30pm - 5:30pm"}
+        ],
+        "LookSeeDo": [
+            {"activity": "Bird Making (for older and younger children)", "time": "10:30am - 12:30pm"},
+            {"activity": "Tassel Key Rings (for older children)", "time": "1:30pm - 3:30pm"},
+            {"activity": "Junk Jewelry (younger children)", "time": "1:30pm - 3:30pm"},
+            {"activity": "Other activities over the weekend", "details": [
+                "Blackboard",
+                "Mandala with Natural Materials",
+                "Coloring In/Drawing",
+                "Face Painting (festival fundraiser, $10 per child)"
+            ]}
+        ],
+        "One Two Three": [
+            {"activity": "The Inner Game of Music with Brightsider", "time": "10:00am - 10:45am"},
+            {"activity": "Creative Songwriting Workshop with Oceanique", "time": "11:00am - 11:45am"},
+            {"activity": "6 Strings & The Muse: Journey of The Song with Wil Thomas", "time": "12:00pm - 12:45pm"},
+            {"activity": "Comedy Songwriting with Peter Willey", "time": "1:00pm - 1:45pm"},
+            {"activity": "Journey of Community Bands with The Sandridge Band", "time": "2:00pm - 2:45pm"},
+            {"activity": "Songwriting Workshop with Finn Pearson", "time": "3:00pm - 3:45pm"},
+            {"activity": "Music Classes for Your Little Folk with Little Folk Music", "time": "4:00pm - 4:45pm"}
+        ]
+
+
+    },
+    "Sunday 2.03.2025": {
+        "The Amphitheatre": [
+            {"artist": "Yoga with Erin Griffin and Leah Miche", "time": "8:30am - 9:30am"},
+            {"artist": "Olive Mae", "time": "10:30am - 11:10am"},
+            {"artist": "Understory", "time": "11:30am - 12:10pm"},
+            {"artist": "Freeway South", "time": "12:25pm - 1:05pm"},
+            {"artist": "Double Dole Stringband", "time": "1:20pm - 2:00pm"},
+            {"artist": "Mo Wilson and The Drivers", "time": "2:20pm - 3:00pm"},
+            {"artist": "Adele Oliver", "time": "3:15pm - 3:55pm"},
+            {"artist": "The Pleasures", "time": "4:15pm - 4:55pm"},
+            {"artist": "Break", "time": "5:00pm - 6:00pm"},
+            {"artist": "Emerging Artists Award Winner Announcement", "time": "6:00pm - 6:10pm"},
+            {"artist": "Kiwirrkurra Band (RAADP Mentee Band)", "time": "6:20pm - 6:55pm"},
+            {"artist": "Loren Kate", "time": "7:10pm - 7:50pm"},
+            {"artist": "Festival Raffle Draw", "time": "7:55pm - 8:00pm"},
+            {"artist": "Mama Kin Spender", "time": "8:10pm - 8:50pm"},
+            {"artist": "The East Pointers", "time": "9:10pm - 9:50pm"},
+            {"artist": "The Kill Devil Hills", "time": "10:10pm - 10:50pm"},
+            {"artist": "Downsyde - The Kings Are Back", "time": "11:10pm - 11:50pm"}
+        ],
+        "Tigerville": [
+            {"artist": "Littlefair", "time": "10:30am - 11:15am"},
+            {"artist": "Jaime Jackett", "time": "11:30am - 12:05pm"},
+            {"artist": "Wil Thomas & The Riding Light", "time": "12:25pm - 1:00pm"},
+            {"artist": "Chief Monkey", "time": "1:20pm - 1:55pm"},
+            {"artist": "Kayps", "time": "2:15pm - 2:50pm"},
+            {"artist": "The Little Lord Street Band", "time": "3:10pm - 3:45pm"},
+            {"artist": "Sean Simmons", "time": "4:00pm - 4:35pm"},
+            {"artist": "Salt & Steel", "time": "4:55pm - 5:30pm"},
+            {"artist": "Finn Pearson Band", "time": "5:50pm - 6:25pm"},
+            {"artist": "The Cup Trumpets", "time": "6:45pm - 7:20pm"},
+            {"artist": "Seal Prince and The Roof Rats", "time": "7:50pm - 8:25pm"},
+            {"artist": "Odette Mercy and Her Soul Atomics", "time": "8:45pm - 9:20pm"},
+            {"artist": "Joan & The Giants", "time": "9:40pm - 10:20pm"}
+        ],
+        "The Secret Garden": [
+            {"artist": "Awaken Your Senses with Karin Page (Workshop)", "time": "8:30am - 9:30am"},
+            {"artist": "Climate Poetics", "time": "10:10am - 10:30am"},
+            {"artist": "Stitch Poetry", "time": "10:45am - 11:20am"},
+            {"artist": "Lexyanna", "time": "11:40am - 12:20pm"},
+            {"artist": "Sandie Beaches (aka Ladybird Entertainment)", "time": "12:35pm - 12:50pm"},
+            {"artist": "Suzie Wong's Magic Moments", "time": "1:00pm - 1:30pm"},
+            {"artist": "Tuck Shop Ladies", "time": "1:45pm - 2:25pm"},
+            {"artist": "Helen Shanahan", "time": "2:45pm - 3:25pm"},
+            {"artist": "Joydah Mae", "time": "3:45pm - 4:25pm"},
+            {"artist": "John Smith", "time": "4:45pm - 5:25pm"},
+            {"artist": "The Sandridge Band", "time": "5:45pm - 6:25pm"},
+            {"artist": "Kim Churchill", "time": "6:40pm - 7:25pm"},
+            {"artist": "Sunday Lemonade", "time": "7:45pm - 8:25pm"},
+            {"artist": "Roshani", "time": "8:45pm - 9:25pm"},
+            {"artist": "Delilah Rose", "time": "9:45pm - 10:25pm"}
+        ],
+        "Town Hall": [
+            {"artist": "Sound Journey with Stellar Moon", "time": "9:30am - 10:30am"},
+            {"artist": "Cecilia", "time": "11:00am - 11:40am"},
+            {"artist": "Matt Cal", "time": "12:00pm - 12:40pm"},
+            {"artist": "Maggie Rigby", "time": "1:00pm - 1:40pm"},
+            {"artist": "Tanya Ransom", "time": "2:00pm - 2:40pm"},
+            {"artist": "Kallum Mungulu", "time": "3:00pm - 3:40pm"},
+            {"artist": "Romanie", "time": "4:00pm - 4:40pm"},
+            {"artist": "Susan O'Neill", "time": "5:00pm - 5:40pm"},
+            {"artist": "Maatakitj", "time": "6:00pm - 6:40pm"},
+            {"artist": "David Francey", "time": "7:00pm - 7:40pm"},
+            {"artist": "Saije", "time": "8:00pm - 8:40pm"},
+            {"artist": "Finn Alexander & The Forever Party", "time": "9:00pm - 9:40pm"},
+            {"artist": "Tijuana Cartel", "time": "10:00pm - 10:40pm"}
+        ],
+        "The Depot Lawn (Free Venue)": [
+            {"artist": "Blackboard Busking Stage", "time": "9:00am - 8:00pm"}
+        ],
+        "Kaartdijin Tent": [
+            {"artist": "Creating Compost with Ecoburbia", "time": "9:45am - 10:30am"},
+            {"artist": "Remote Aboriginal Artist Development Program", "time": "10:45am - 11:30am"},
+            {"artist": "Mental As Everything with Damon Smith", "time": "11:45am - 12:30pm"},
+            {"artist": "How to Write Badly: An Ode to Breaking The Ice with Jack Davies", "time": "1:45pm - 2:30pm"},
+            {"artist": "How Do You Write A Protest Song with Dave Johnson", "time": "2:45pm - 3:30pm"},
+            {"artist": "Half Him Half Her - An Intersex Journey with Stephanie Vaughan", "time": "3:45pm - 4:30pm"}
+        ],
+        "The Playground": [
+            {"artist": "Poetry in Moments (Open Mic of Poetry)", "time": "8:30am - 10:30am"},
+            {"artist": "Ladybird Entertainment", "time": "10:50am - 11:40am"},
+            {"artist": "Olive Mae", "time": "12:00pm - 12:40pm"},
+            {"artist": "KCOR", "time": "1:00pm - 1:40pm"},
+            {"artist": "Ashlea Reale & New York Slim", "time": "2:00pm - 2:40pm"},
+            {"artist": "Nannup Emerging Artists Award", "time": "3:00pm - 5:00pm"},
+            {
+                "artist": "Emerging Artists Performance",
+                "performers": [
+                    "Oakabella Mae", "Sam Coombes", "Romy B", "Psycho Serene", "Midnight Francine",
+                    "Kayps", "Helena.", "Don't Tell Daisy", "Daisy Park", "Ben Lunt"
+                ],
+                "time": "5:30pm - 6:10pm"
+            },
+            {"artist": "Ben Lunt", "time": "6:30pm - 7:10pm"},
+            {"artist": "Family Shoveller Band (RAADP)", "time": "7:30pm - 8:10pm"}
+        ],
+        "Nannup Hotel": [
+            {"artist": "Peter Willey", "time": "12:00pm - 12:40pm"},
+            {"artist": "The Mumbles", "time": "1:00pm - 1:40pm"},
+            {"artist": "Good News Now You Can Eat All The Vampires", "time": "2:00pm - 2:40pm"},
+            {"artist": "Brightsider", "time": "3:00pm - 3:40pm"},
+            {"artist": "Tracey Barnett", "time": "4:00pm - 4:40pm"},
+            {"artist": "Dave Johnson", "time": "5:00pm - 5:40pm"},
+            {"artist": "South 76", "time": "6:00pm - 6:40pm"},
+            {"artist": "Psycho Serene", "time": "7:00pm - 7:40pm"},
+            {"artist": "The Floors", "time": "8:00pm - 8:40pm"},
+            {"artist": "Family Shoveller Band", "time": "9:00pm - 9:40pm"},
+            {"artist": "Ratsalad", "time": "10:00pm - 10:40pm"},
+            {"artist": "Brightsider", "time": "11:00pm - 11:40pm"}
+        ],
+        "Nannup Brewing Co.": [
+            {"artist": "Chris Edmondson's Hut Chapters", "time": "1:00pm - 1:40pm"},
+            {"artist": "Matt Cal", "time": "2:00pm - 2:40pm"},
+            {"artist": "LJ Parks", "time": "3:00pm - 3:40pm"},
+            {"artist": "Littlefair", "time": "4:00pm - 4:40pm"},
+            {"artist": "Karin Page", "time": "5:00pm - 5:40pm"},
+            {"artist": "BR Dalton", "time": "6:00pm - 6:40pm"},
+            {"artist": "Midnight Francine", "time": "7:00pm - 7:40pm"},
+            {"artist": "Luci", "time": "8:00pm - 8:40pm"}
+        ],
+        "Art Space with Art Jam WA": [
+            {"activity": "Printing with Sun Dyes", "time": "10:00am"},
+            {"activity": "Weaving Wall Hangings", "time": "11:30am"},
+            {"activity": "DIY Notebooks", "time": "1:30pm"},
+            {"activity": "Make a Rain Stick", "time": "3:30pm"}
+        ],
+        "LookSeeDo in the Playground": [
+            {"activity": "Poi Making", "age_group": "Older children", "time": "10:30am - 12:30pm"},
+            {"activity": "Sock Worms", "age_group": "Younger children", "time": "10:30am - 12:30pm"},
+            {"activity": "Magic Flowers", "age_group": "Older children", "time": "1:30pm - 2:30pm"},
+            {"activity": "Stick Puppets", "age_group": "Younger children", "time": "1:30pm - 2:30pm"},
+            {
+                "activity": "Other activities over the weekend",
+                "details": [
+                    "Blackboard",
+                    "Mandala with Natural Materials",
+                    "Coloring In/Drawing",
+                    "Face Painting (festival fundraiser, $10 per child)"
+                ]
+            }
+        ],
+        "One Two THREE": [
+            {"activity": "Music Classes for Your Little Folk with Little Folk Music", "time": "10:00am - 10:45am"},
+            {"activity": "Advancing Our Guitar Knowledge with BMP", "time": "11:00am - 11:45am"},
+            {"activity": "Opening Pandora's Vocal Box with The MDV Band", "time": "12:00pm - 12:45pm"},
+            {"activity": "Immerse Yourself in Hip-Hop with Downsyde", "time": "1:00pm - 1:45pm"},
+            {"activity": "Songwriting with BR Dalton", "time": "2:00pm - 2:45pm"},
+            {"activity": "Simple Songwriting with Olive Mae", "time": "3:00pm - 3:45pm"},
+            {"activity": "Body Percussion & Singing for Beginners with Saije", "time": "4:00pm - 4:45pm"}
+        ],
+        "Tales Around The Hearth (in the Arboretum)": [
+            {"activity": "Tales Around The Hearth", "time": "10:00am - 4:00pm"}
+        ],
+        "The Depot Lawn": [
+            {"activity": "Blackboard Busking Stage", "time": "9:00am - 8:00pm"}
+        ]
+    }
+}
+
