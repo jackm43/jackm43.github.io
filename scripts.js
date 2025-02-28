@@ -1,4 +1,12 @@
-
+window.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        if (typeof ICAL === 'undefined') {
+            console.error('ICAL.js library failed to load properly. Calendar generation might not work.');
+        } else {
+            console.log('ICAL.js library loaded successfully.');
+        }
+    }, 1000); // Check after 1 second to allow for potential async loading
+});
 let events = [];
 let currentId = 1;
 

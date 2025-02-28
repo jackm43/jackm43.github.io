@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nannup Festival Schedule 2025</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        function loadFallbackIcal() {
+            console.log('Loading fallback ICAL.js library from local file');
+            var script = document.createElement('script');
+            script.src = 'ical.min.js';
+            script.onerror = function() {
+                console.error('Failed to load both CDN and local ICAL.js. Calendar generation will not work.');
+                alert('Failed to load calendar library. Please check your internet connection or contact support.');
+            };
+            document.head.appendChild(script);
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js" onerror="loadFallbackIcal()"></script>
 </head>
 <body>
     <div class="container">
@@ -46,20 +59,6 @@
         </footer>
     </div>
 
-    <script>
-        function loadFallbackIcal() {
-            console.log('Loading fallback ICAL.js library from local file');
-            var script = document.createElement('script');
-            script.src = 'ical.min.js';
-            script.onerror = function() {
-                console.error('Failed to load both CDN and local ICAL.js. Calendar generation will not work.');
-                alert('Failed to load calendar library. Please check your internet connection or contact support.');
-            };
-            document.head.appendChild(script);
-        }
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js" onerror="loadFallbackIcal()"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
