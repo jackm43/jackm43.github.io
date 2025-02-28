@@ -1,4 +1,3 @@
-});
 
 let events = [];
 let currentId = 1;
