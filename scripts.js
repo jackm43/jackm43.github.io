@@ -73,9 +73,11 @@ function processScheduleData(data) {
     events.sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 }
 
-// Process time string (e.g., "5:20pm - 5:50pm") into ISO date strings
 function processTimeString(timeString, dayString) {
-    const dateParts = dayString.match(/(\d+)\.(\d+)\.(\d+)/);
+    const dayOfWeek = dayString.split(' ')[0];
+    const dateStr = dayString.split(' ')[1] || dayString;
+    
+    const dateParts = dateStr.match(/(\d+)\.(\d+)\.(\d+)/);
 
     if (!dateParts) {
         console.error('Cannot parse date from day string:', dayString);
@@ -86,9 +88,11 @@ function processTimeString(timeString, dayString) {
         };
     }
 
-    const year = dateParts[3];
-    const month = dateParts[2];
     const day = dateParts[1];
+    const month = dateParts[2];
+    const year = dateParts[3];
+
+    console.log(`Processing date: ${dayString} -> ${day}.${month}.${year} (${dayOfWeek})`);
 
     const timeParts = timeString.split(' - ');
     if (timeParts.length !== 2) {
@@ -100,7 +104,7 @@ function processTimeString(timeString, dayString) {
         };
     }
 
-    const startDateTime = parseTimeString(`${year}-${month}-${day}T${timeParts[0]}`);
+    const startDateTime = parseTimeString(`${day}.${month}.${year}T${timeParts[0]}`);
     if (!startDateTime) {
         console.error('Invalid start time format:', timeParts[0]);
         const baseDate = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
@@ -110,7 +114,7 @@ function processTimeString(timeString, dayString) {
         };
     }
 
-    const endDateTime = parseTimeString(`${year}-${month}-${day}T${timeParts[1]}`);
+    const endDateTime = parseTimeString(`${day}.${month}.${year}T${timeParts[1]}`);
     if (!endDateTime) {
         console.error('Invalid end time format:', timeParts[1]);
         return {
@@ -118,6 +122,10 @@ function processTimeString(timeString, dayString) {
             endDate: new Date(startDateTime.getTime() + 3600000).toISOString() // 1 hour later
         };
     }
+
+    console.log(`Parsed time range: ${timeString}`);
+    console.log(`Start: ${startDateTime.toString()} (${startDateTime.toISOString()})`);
+    console.log(`End: ${endDateTime.toString()} (${endDateTime.toISOString()})`);
 
     return {
         startDate: startDateTime.toISOString(),
@@ -127,16 +135,18 @@ function processTimeString(timeString, dayString) {
 
 function parseTimeString(dateTimeString) {
     try {
-        const matches = dateTimeString.match(/(\d+)-(\d+)-(\d+)T(\d+):(\d+)(am|pm)/i);
+        console.log('Parsing datetime string:', dateTimeString);
+        
+        const matches = dateTimeString.match(/(\d+)\.(\d+)\.(\d+)T(\d+):(\d+)(am|pm)/i);
 
         if (!matches) {
             console.error('Cannot parse datetime string:', dateTimeString);
             return null;
         }
 
-        const year = matches[1];
+        const day = parseInt(matches[1]);
         const month = parseInt(matches[2]) - 1; // Months are 0-based in JS Date
-        const day = matches[3];
+        const year = parseInt(matches[3]);
         let hour = parseInt(matches[4]);
         const minute = parseInt(matches[5]);
         const period = matches[6].toLowerCase();
@@ -152,7 +162,10 @@ function parseTimeString(dateTimeString) {
             return null;
         }
 
-        return new Date(year, month, day, hour, minute);
+        const date = new Date(year, month, day, hour, minute);
+        console.log(`Created date: ${date.toString()} from components:`, { year, month: month+1, day, hour, minute, period });
+        
+        return date;
     } catch (error) {
         console.error('Error parsing time string:', error);
         return null;
@@ -192,14 +205,16 @@ function populateCategoryFilter() {
 
 function formatDate(dateString) {
     const date = new Date(dateString);
-    return date.toLocaleString('en-US', {
+    
+    return new Intl.DateTimeFormat('en-AU', {
+        timeZone: 'Australia/Perth',
         weekday: 'short',
         month: 'short',
         day: 'numeric',
         hour: 'numeric',
         minute: '2-digit',
         hour12: true
-    });
+    }).format(date);
 }
 
 function displayEvents() {
@@ -267,9 +282,18 @@ function displayEvents() {
 
 function createIcalTime(dateString) {
     const date = new Date(dateString);
+    
     const icalTime = new ICAL.Time();
-    icalTime.fromJSDate(date);
+    
+    icalTime.year = date.getFullYear();
+    icalTime.month = date.getMonth() + 1; // ICAL months are 1-based
+    icalTime.day = date.getDate();
+    icalTime.hour = date.getHours();
+    icalTime.minute = date.getMinutes();
+    icalTime.second = date.getSeconds();
+    
     icalTime.zone = ICAL.Timezone.localTimezone;
+    
     return icalTime;
 }
 
@@ -283,11 +307,25 @@ function createVEvent(event) {
     vevent.updatePropertyWithValue('uid', `event-${event.id}@schedule-app`);
     vevent.updatePropertyWithValue('dtstamp', now);
 
-    const dtstart = vevent.addPropertyWithValue('dtstart', createIcalTime(event.startDate));
-    dtstart.setParameter('tzid', 'Australia/Perth');
+    console.log('Event:', event.title);
+    console.log('Raw startDate:', event.startDate);
+    console.log('Raw endDate:', event.endDate);
+    
+    const startJSDate = new Date(event.startDate);
+    const endJSDate = new Date(event.endDate);
+    
+    console.log('JS startDate:', startJSDate.toString());
+    console.log('JS endDate:', endJSDate.toString());
 
-    const dtend = vevent.addPropertyWithValue('dtend', createIcalTime(event.endDate));
-    dtend.setParameter('tzid', 'Australia/Perth');
+    const startTime = createIcalTime(event.startDate);
+    const endTime = createIcalTime(event.endDate);
+    
+    console.log('ICAL startTime:', startTime.toString());
+    console.log('ICAL endTime:', endTime.toString());
+
+    const dtstart = vevent.addPropertyWithValue('dtstart', startTime);
+    
+    const dtend = vevent.addPropertyWithValue('dtend', endTime);
 
     vevent.updatePropertyWithValue('summary', event.title);
     vevent.updatePropertyWithValue('description', event.description);
@@ -300,11 +338,10 @@ function createCalendar() {
     const cal = new ICAL.Component(['vcalendar', [], []]);
     cal.updatePropertyWithValue('prodid', '-//Schedule App//EN');
     cal.updatePropertyWithValue('version', '2.0');
-
-    const timezone = new ICAL.Component('vtimezone');
-    timezone.updatePropertyWithValue('tzid', 'Australia/Perth'); // Using Perth timezone for Nannup
-    cal.addSubcomponent(timezone);
-
+    cal.updatePropertyWithValue('calscale', 'GREGORIAN');
+    cal.updatePropertyWithValue('method', 'PUBLISH');
+    
+    
     return cal;
 }
 
@@ -335,11 +372,16 @@ function generateSingleEventIcs(eventId) {
             return;
         }
 
-        const cal = createCalendar();
+        console.log('Generating calendar for event:', event);
+        console.log('Event date/time:', event.startDate, 'to', event.endDate);
+        console.log('In local format:', new Date(event.startDate).toString(), 'to', new Date(event.endDate).toString());
 
+        const cal = createCalendar();
         cal.addSubcomponent(createVEvent(event));
 
         const icsString = cal.toString();
+        console.log('Generated ICS content:', icsString);
+        
         const filename = `${event.title.replace(/[^a-z0-9]/gi, '-').toLowerCase()}.ics`;
         downloadIcsFile(icsString, filename);
 
